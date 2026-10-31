@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101522">
+  <title>VALDEUD OS — MIND</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand"><span class="brand-mark">V</span><div><strong>VALDEUD OS</strong><small>INTELLIGENCE SYSTEM</small></div></div>
+      <p class="nav-label">ESPACE PRINCIPAL</p>
+      <a class="nav-item active" href="#"><span>◈</span> Vue d'ensemble</a>
+      <a class="nav-item" href="#"><span>✧</span> MIND</a>
+      <a class="nav-item" href="#"><span>▦</span> Agence</a>
+      <a class="nav-item" href="#"><span>◎</span> Équipe</a>
+      <a class="nav-item" href="#"><span>⌘</span> Discord</a>
+      <a class="nav-item" href="#"><span>⚙</span> Paramètres</a>
+      <div class="sidebar-bottom"><span class="status-dot"></span> Interface de démonstration</div>
+    </aside>
+    <main class="main">
+      <header class="topbar"><div><span class="eyebrow">CENTRE DE COMMANDE</span><h1>Vue d'ensemble</h1></div><div class="profile"><span class="avatar">V</span><span>VALDEUD</span></div></header>
+      <section class="welcome">
+        <div><span class="eyebrow">INTELLIGENCE CENTRALE</span><h2>Bienvenue dans <em>VALDEUD OS</em></h2><p>Un espace de travail intelligent pour piloter tes projets et ton agence.</p></div>
+        <div class="mind-orb">M</div>
+      </section>
+      <section class="stats">
+        <article class="stat-card"><span>ÉQUIPES</span><strong>—</strong><small>Aucune donnée connectée</small></article>
+        <article class="stat-card"><span>COMPTES</span><strong>—</strong><small>Aucune donnée connectée</small></article>
+        <article class="stat-card"><span>TÂCHES ACTIVES</span><strong>—</strong><small>Aucune donnée connectée</small></article>
+      </section>
+      <section class="workspace">
+        <div class="section-heading"><div><span class="eyebrow">TON ASSISTANT</span><h2>MIND</h2></div><span class="online"><i></i> Interface prête</span></div>
+        <div class="chat-panel">
+          <div class="mind-message"><span class="mind-avatar">M</span><div><strong>MIND</strong><p>Bonjour ! Je suis le centre d'intelligence de VALDEUD OS. Nous pouvons préparer tes projets, organiser ton agence et réfléchir à de nouvelles stratégies.</p></div></div>
+          <div id="messages" class="messages"></div>
+          <form id="chat-form" class="chat-form"><input id="message-input" type="text" placeholder="Écris un message à MIND..." autocomplete="off"><button type="submit">Envoyer</button><button id="voice-button" class="voice-button" type="button" aria-label="Activer la dictée vocale">🎙</button></form>
+          <small class="notice">Prototype visuel : la réponse IA et la conversation vocale seront connectées dans une prochaine phase.</small>
+        </div>
+      </section>
+      <footer>VALDEUD OS · Prototype initial · Version 0.1</footer>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
